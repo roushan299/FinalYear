@@ -1,0 +1,83 @@
+body{
+    background-color: blueviolet;
+    background-image: url("../resources/background1.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    margin: 80px;
+    background: rgba(FFF, FFF, FFF, 1);
+    height: 500px;
+    width: 500px;
+    border: 2px solid white;
+    border-radius: 10px;
+
+}
+div{
+    margin:5px;
+    padding: 5px;
+vertical-align: middle;
+}
+#mobile_number{
+   
+}
+#password{
+    
+}
+#login{
+    border-radius: 5px;
+    border: 2px yellowgreen solid;
+    height: 30px;
+    width: 200px;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: yellowgreen 5px 5px 5px;
+    margin: 10px;
+}
+
+.extra{
+    margin: 10px;
+    padding: 10px;
+    border: rebeccapurple solid 2px;
+    border-radius: 50px;
+    box-shadow: purple 0px 5px 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.inp{
+    border: 3px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.inp:hover{
+    border:green solid 3px;
+    border-radius: 5px;
+    background-color: yellowgreen;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+#title{
+    text-align: center;
+    text-shadow: red 5px 5px 5px;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: larger;
+    font-size: 50px;
+    text-decoration: double;
+    text-overflow: ellipsis;
+    height: 30px;
+    margin: 15px;
+    padding: 30px;
+}
